@@ -8,6 +8,14 @@ If our model is too simple and has very few parameters then it may have high bia
 #### 2) What is gradient descent? [[src](http://houseofbots.com/news-detail/2849-4-data-science-and-machine-learning-interview-questions)]
 [[Answer]](https://towardsdatascience.com/an-introduction-to-gradient-descent-c9cca5739307)
 
+As gradient is a vector pointing at the greatest increase of a function, negative gradient is a vector pointing at the greatest decrease of a function. Therefore, we can minimize a function by iteratively moving a little bit in the direction of negative gradient. That is the logic of gradient descent.
+
+It is an iterative optimization approach applied when we do not have closed-form equation, such as logistic regression. 
+ 
+The general idea of gradient descent in machine learning is to tweak parameters iteratively in order to minimize a cost function.
+ 
+An important parameter in gradient descent is learning rate, which determine the size of each step. When learning rate is too big, gradient descent may jump across the valley and end up on the other side. This will lead to the cost function diverge. On the other hand, when learning rate is too small, it will take the algorithm long time to converge. Therefore, proper learning rate is needed before gradient descent starts.
+
 #### 3) Explain over- and under-fitting and how to combat them? [[src](http://houseofbots.com/news-detail/2849-4-data-science-and-machine-learning-interview-questions)]
 [[Answer]](https://towardsdatascience.com/overfitting-vs-underfitting-a-complete-example-d05dd7e19765)
 
