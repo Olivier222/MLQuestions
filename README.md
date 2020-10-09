@@ -227,6 +227,10 @@ Iteration: number of training examples / Batch size
 #### 45) What is vanishing gradient? [[src](https://intellipaat.com/interview-question/artificial-intelligence-interview-questions/)]
 As we add more and more hidden layers, back propagation becomes less and less useful in passing information to the lower layers. In effect, as information is passed back, the gradients begin to vanish and become small relative to the weights of the networks.
 
+[[more detail]](https://www.deeplearning.ai/ai-notes/initialization/)
+
+A too-small weight matrix initialization leads to vanishing gradients. The values of a neuron activation decrease exponentially with deeper and deep layers. When these activations are used in backward propagation, this leads to the vanishing gradient problem. The gradients of the cost with respect to the parameters are too small, leading to convergence of the cost before it has reached the minimum value.
+
 #### 46) What are dropouts? [[src](https://intellipaat.com/interview-question/artificial-intelligence-interview-questions/)]
 Dropout is a simple way to prevent a neural network from overfitting. It is the dropping out of some of the units in a neural network. It is similar to the natural reproduction process, where the nature produces offsprings by combining distinct genes (dropping out others) rather than strengthening the co-adapting of them.
 
@@ -243,6 +247,7 @@ Long Short Term Memory – are explicitly designed to address the long term depe
  - GRU: Gated Recurrent Unit
  - End to End Network
  - Memory Network
+ - Transformer NEtworks
 
 #### 50) What is Autoencoder, name few applications. [[src](https://intellipaat.com/interview-question/artificial-intelligence-interview-questions/)]
 Auto encoder is basically used to learn a compressed form of given data. Few applications include
@@ -260,6 +265,8 @@ Boosting and bagging are similar, in that they are both ensembling techniques, w
 
 #### 53) Explain how a ROC curve works. [[src]](https://www.springboard.com/blog/machine-learning-interview-questions/)
 The ROC curve is a graphical representation of the contrast between true positive rates and the false positive rate at various thresholds. It’s often used as a proxy for the trade-off between the sensitivity of the model (true positives) vs the fall-out or the probability it will trigger a false alarm (false positives).
+
+[[more info]](https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5)
 
 #### 54) What’s the difference between Type I and Type II error? [[src]](https://www.springboard.com/blog/machine-learning-interview-questions/)
 Type I error is a false positive, while Type II error is a false negative. Briefly stated, Type I error means claiming something has happened when it hasn’t, while Type II error means that you claim nothing is happening when in fact something is.
