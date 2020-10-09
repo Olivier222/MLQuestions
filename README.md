@@ -29,6 +29,11 @@ Methods to comabt them:
 1) k-fold cross-validation: by comparing the cross-validation score of multiple models with varying degree of flexibility we can find the "sweet spot" for the bias-variance tradeoff.
 2) bagging: useful to reduce variance or reduce overfitting
 3) boosting: useful to increase flexibility of the model / reduce bias / reduce underfitting
+4) Early-stopping
+5) pruning
+6) Regularization (L1 and L2)
+7) remove features
+8) train with more data
 
 #### 4) How do you combat the curse of dimensionality? [[src](http://houseofbots.com/news-detail/2849-4-data-science-and-machine-learning-interview-questions)]
 
