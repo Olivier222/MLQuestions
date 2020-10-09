@@ -178,7 +178,7 @@ Computer vision is one of fields where data augmentation is very useful. There a
  - Add noise
  - Deform
  - Modify colors
-Each problem needs a customized data augmentation pipeline. For example, on OCR, doing flips will change the text and won’t be beneficial; however, resizes and small rotations may help.
+Each problem needs a customized data augmentation pipeline. For example, on Optical Character Recognition (OCR), doing flips will change the text and won’t be beneficial; however, resizes and small rotations may help.
 
 #### 35) What is Turing test? [[src](https://intellipaat.com/interview-question/artificial-intelligence-interview-questions/)]
 The Turing test is a method to test the machine’s ability to match the human level intelligence. A machine is used to challenge the human intelligence that when it passes the test, it is considered as intelligent. Yet a machine could be viewed as intelligent without sufficiently knowing about people to mimic a human.
