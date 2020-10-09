@@ -54,6 +54,12 @@ The obvious *disadvantage* of **ridge** regression, is model interpretability. I
 #### 6) Explain Principal Component Analysis (PCA)? [[src](http://houseofbots.com/news-detail/2849-4-data-science-and-machine-learning-interview-questions)]
 [[Answer]](https://towardsdatascience.com/a-one-stop-shop-for-principal-component-analysis-5582fb7e0a9c)
 
+Principal component analysis is a technique for feature extraction — so it combines input variables to generate principle components (PC)  or new features which are independant variables or eigenvectors of the covariance matrix. These PCs represent directions in the dataset which explain/contain the variance
+
+You can then choose what level of variance of the data you want to keep for training a model and then keep only the necessary number of PCs to contain that variance.
+
+We can drop the “least important” variables while still retaining the most valuable parts of all of the variables!
+
 #### 7) Why is ReLU better and more often used than Sigmoid in Neural Networks? [[src](http://houseofbots.com/news-detail/2849-4-data-science-and-machine-learning-interview-questions)]
 Imagine a network with random initialized weights ( or normalised ) and almost 50% of the network yields 0 activation because of the characteristic of ReLu ( output 0 for negative values of x ). This means a fewer neurons are firing ( sparse activation ) and the network is lighter. [[src]](https://medium.com/the-theory-of-everything/understanding-activation-functions-in-neural-networks-9491262884e0)
 
