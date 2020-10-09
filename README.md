@@ -19,6 +19,15 @@ An important parameter in gradient descent is learning rate, which determine the
 #### 3) Explain over- and under-fitting and how to combat them? [[src](http://houseofbots.com/news-detail/2849-4-data-science-and-machine-learning-interview-questions)]
 [[Answer]](https://towardsdatascience.com/overfitting-vs-underfitting-a-complete-example-d05dd7e19765)
 
+Overfitting is when a model essentially "memorizes" training data. This leads to low error on the training data but high error on the test data (low bias, high variance).
+
+Underfitting is when a model is too simple or doesn't have enough flexibility / parameters and becomes unable to find the relationship of the data. This leads to high error on the training data and similar error on the test data (high bias, low variance)
+
+Methods to comabt them:
+1) k-fold cross-validation: by comparing the cross-validation score of multiple models with varying degree of flexibility we can find the "sweet spot" for the bias-variance tradeoff.
+2) bagging: useful to reduce variance or reduce overfitting
+3) boosting: useful to increase flexibility of the model / reduce bias / reduce underfitting
+
 #### 4) How do you combat the curse of dimensionality? [[src](http://houseofbots.com/news-detail/2849-4-data-science-and-machine-learning-interview-questions)]
 
  - Manual Feature Selection
