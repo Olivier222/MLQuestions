@@ -66,19 +66,18 @@ Imagine a network with random initialized weights ( or normalised ) and almost 5
 [[Answer]](https://youtu.be/Xvg00QnyaIY?t=465)
 
 
-#### 8) Given stride S and kernel sizes  for each layer of a (1-dimensional) CNN, create a function to compute the [receptive field](https://www.quora.com/What-is-a-receptive-field-in-a-convolutional-neural-network) of a particular node in the network. This is just finding how many input nodes actually connect through to a neuron in a CNN. [[src](https://www.reddit.com/r/computervision/comments/7gku4z/technical_interview_questions_in_cv/)]
+#### 8) Given stride S and kernel sizes  for each layer of a (1-dimensional) CNN, create a function to compute the [receptive field](https://www.quora.com/What-is-a-receptive-field-in-a-convolutional-neural-network) of a particular node in the network. This is just finding how many input nodes actually connect through to a neuron in a CNN. [[src]](https://www.reddit.com/r/computervision/comments/7gku4z/technical_interview_questions_in_cv/)
 
+- k = filter size
+- s = stride
+- j = jump or distance between adjacent features
+- r = receptive field
 
-k = filter size
-s = stride
-j = jump or distance between adjacent features
-r = receptive field
+- j_out = j_in * s
+- r_out = r_in * (k-1) * j_in
 
-j_out = j_in * s
-r_out = r_in * (k-1) * j_in
-
-j_0 = 1
-r_0 = 1
+- j_0 = 1
+- r_0 = 1
 
 [[equation here]](https://medium.com/mlreview/a-guide-to-receptive-field-arithmetic-for-convolutional-neural-networks-e0f514068807)
 
