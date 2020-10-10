@@ -73,6 +73,8 @@ Imagine a network with random initialized weights ( or normalised ) and almost 5
 
 #### 10) Implement a sparse matrix class in C++. [[src](https://www.reddit.com/r/computervision/comments/7gku4z/technical_interview_questions_in_cv/)]
 
+[[geeksforgeeks Compressed Sparse Row - CSR]](https://www.geeksforgeeks.org/sparse-matrix-representations-set-3-csr/)
+
 
 #### 11) Create a function to compute an [integral image](https://en.wikipedia.org/wiki/Summed-area_table), and create another function to get area sums from the integral image.[[src](https://www.reddit.com/r/computervision/comments/7gku4z/technical_interview_questions_in_cv/)]
 
